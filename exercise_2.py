@@ -8,7 +8,6 @@ with open('text.txt',mode='r') as text:
           # to alpha exei mono grammata kai space
             alpha += i
     words = alpha.split()
-    print(words)
     stat1 = [1]
     stat2 = [0]
     for i in range(len(words)):
@@ -18,7 +17,6 @@ with open('text.txt',mode='r') as text:
             elif len(words[i]) + len(words[j]) == 20:
                 words[j] = '1'
                 words[i] = '1'
-                print(words[i])
                 break
         if words[i] == '1':
             continue
