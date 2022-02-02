@@ -16,7 +16,6 @@ with open('textf.txt',mode='r') as text:
             b = '0'*(7 - len(words[i])) + words[i]
             words[i] = b
     alpha = ''.join(words)
-    print(alpha)
     rep1 = 0
     rep2 = 0
     for bi in ['0','1']:
@@ -32,4 +31,4 @@ with open('textf.txt',mode='r') as text:
         print("the largest ammount of continued",bi," \'s are",rep2)
         rep2 = 0
         rep1 = 0
-        text.close()
+    text.close()
