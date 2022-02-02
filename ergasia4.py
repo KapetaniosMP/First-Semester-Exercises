@@ -29,8 +29,7 @@ with open('textf.txt',mode='r') as text:
                 rep1 = 0
         if rep1 > rep2:
             rep2 = rep1
-        print(rep2,bi)
+        print("the largest ammount of continued",bi," \'s are",rep2)
         rep2 = 0
         rep1 = 0
-
-
+        text.close()
