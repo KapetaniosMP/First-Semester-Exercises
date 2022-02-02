@@ -47,9 +47,4 @@ with open('Text.txt',mode='r') as text:
             difwor.append(i[:3])
     biggest(3)
     print("the three most usual first three letters are: ",difwor[:3] )
-
-
-
-
-
-
+    text.close()
