@@ -38,7 +38,7 @@ with open('Text.txt',mode='r') as text:
             difwor.append(i[:2])
     biggest(3)
     print("the three most usual first two letters are: ",difwor[:3] )
-    # b)
+    # c)
     popu =[] 
     difwor=[]
     for i in words:
