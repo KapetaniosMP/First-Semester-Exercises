@@ -6,7 +6,7 @@ def strtobinary(s):
         binval = bin(ascval)
         ar.append(binval[2:])
     return (' '.join(ar))
-with open('textf.txt',mode='r') as text:
+with open('two_cities_ascii.txt',mode='r') as text:
     alpha = ''
     for alfar in text:
        alpha += strtobinary(alfar) + ' '
