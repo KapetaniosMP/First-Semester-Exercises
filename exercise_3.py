@@ -1,4 +1,4 @@
-with open('text.txt',mode='r') as text:
+with open('two_cities_ascii.txt',mode='r') as text:
     alpha = ""
     for alfar in text:
         a =[i for i in alfar]
